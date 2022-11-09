@@ -1,0 +1,1 @@
+This is a sample react application to get start with the frameworks
