@@ -47,12 +47,16 @@ function App() {
 
   const router = createBrowserRouter([
     {path:'/', element: <Textform /> },
-    {path:'/about', element: <About/>}
+    {path:'/about', element: <About/>},
+    {path: '/Navbar', element: <Navbar/>}
   ]);
  
   return (
     <>
+      <Navbar mode={'light'} toggleMode={toggleMode} title={"Enble dark Mode"} />
       
+      <Textform mode={'light'} heading={'Text Util'}/>
+      {/*<RouterProvider router={router} />*/}
       
     </>
   );
